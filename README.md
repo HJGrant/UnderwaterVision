@@ -7,4 +7,4 @@
 ## Depth Map Creation
 
 
-## 3D REconstruction
+## 3D Reconstruction
