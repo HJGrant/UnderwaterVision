@@ -33,6 +33,7 @@
   abstract  = {Depth cameras are increasingly used in research and industry in underwater settings. However, cameras that have been calibrated in air are notably inaccurate in depth measurements when placed underwater, and little research has been done to explore pre-existing depth calibration methodologies and their effectiveness in underwater environments. We used four methods of calibration on a low-cost, commercial depth camera both in and out of water. For each of these methods, we compared the predicted distance and length of objects from the camera with manually measured values to get an indication of depth and length accuracy. Our findings indicate that the standard methods of calibration in air are largely ineffective for underwater calibration and that custom calibration techniques are necessary to achieve higher accuracy.},
   articleno = {22},
   doi       = {10.1145/3567600.3568158},
+  groups    = {Camera Calibration},
   isbn      = {9781450399524},
   keywords  = {Underwater stereo vision, depth camera calibration},
   location  = {Boston, MA, USA},
@@ -84,6 +85,7 @@
   doi        = {10.3390/jmse11050949},
   groups     = {Underwater 3D Reconstruction},
   publisher  = {MDPI AG},
+  ranking    = {rank3},
   readstatus = {read},
 }
 
@@ -147,7 +149,7 @@
   publisher  = {IEEE},
   doi        = {10.1109/oceans-genova.2015.7271529},
   groups     = {Hardware},
-  priority   = {prio1},
+  priority   = {prio3},
   readstatus = {skimmed},
 }
 
@@ -162,13 +164,14 @@
 }
 
 @Misc{Badki2020,
-  author    = {Badki, Abhishek and Troccoli, Alejandro and Kim, Kihwan and Kautz, Jan and Sen, Pradeep and Gallo, Orazio},
-  title     = {Bi3D: Stereo Depth Estimation via Binary Classifications},
-  year      = {2020},
-  copyright = {arXiv.org perpetual, non-exclusive license},
-  doi       = {10.48550/ARXIV.2005.07274},
-  keywords  = {Computer Vision and Pattern Recognition (cs.CV), Robotics (cs.RO), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  publisher = {arXiv},
+  author     = {Badki, Abhishek and Troccoli, Alejandro and Kim, Kihwan and Kautz, Jan and Sen, Pradeep and Gallo, Orazio},
+  title      = {Bi3D: Stereo Depth Estimation via Binary Classifications},
+  year       = {2020},
+  copyright  = {arXiv.org perpetual, non-exclusive license},
+  doi        = {10.48550/ARXIV.2005.07274},
+  keywords   = {Computer Vision and Pattern Recognition (cs.CV), Robotics (cs.RO), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  publisher  = {arXiv},
+  readstatus = {skimmed},
 }
 
  
@@ -196,21 +199,89 @@
   accessdate = {2024-06-07},
   file       = {:- 2309.05349v1.pdf:PDF:https\://arxiv.org/pdf/2309.05349},
   groups     = {Underwater 3D Reconstruction},
+  ranking    = {rank5},
+  readstatus = {read},
   url        = {https://arxiv.org/pdf/2309.05349},
 }
 
 @Misc{,
-  title      = {N-374915},
+  author     = {Tim Dolereit},
+  title      = {Concepts for Underwater Stereo Calibration, Stereo 3D-Reconstruction and Evaluation},
   accessdate = {2024-06-07},
   file       = {:- N 374915.pdf:PDF:https\://publica-rest.fraunhofer.de/server/api/core/bitstreams/d1ea460f-2bc1-4932-a9f3-46e6e6d4286b/content},
+  groups     = {Camera Calibration},
+  ranking    = {rank2},
   url        = {https://publica-rest.fraunhofer.de/server/api/core/bitstreams/d1ea460f-2bc1-4932-a9f3-46e6e6d4286b/content},
 }
 
 @Misc{,
-  title      = {domecalibration_preprint},
+  author     = {Mengkun She, Yifan Song, Jochen Mohrmann, and Kevin Koeser},
+  title      = {Adjustment and Calibration of Dome Port Camera Systems for Underwater Vision},
+  abstract   = {Abstract. Handling refractive effects in computer vision disciplines like
+underwater stereo camera system calibration or 3D-reconstruction is a
+major challenge. Refraction occurs at the borders between different me-
+dia on the way of the light and introduces non-linear distortions, that are
+dependent on the imaged scene. In this paper, concepts will be proposed
+for the calibration of a stereo camera system including a set of additional
+refractive parameters, for underwater stereo 3D-reconstruction and for
+evaluation of the computations.},
   accessdate = {2024-06-07},
   file       = {:- Domecalibration_preprint.pdf:PDF:https\://www.geomar.de/fileadmin/personal/fb2/mg/kkoeser/domecalibration_preprint.pdf},
+  groups     = {Camera Calibration},
+  ranking    = {rank5},
+  readstatus = {read},
   url        = {https://www.geomar.de/fileadmin/personal/fb2/mg/kkoeser/domecalibration_preprint.pdf},
+}
+
+@misc{,		title={An_Introduction_to_Sensor_Fusion},		file={:https\://www.researchgate.net/profile/Wilfried-Elmenreich/publication/267771481_An_Introduction_to_Sensor_Fusion/links/55d2e45908ae0a3417222dd9/An-Introduction-to-Sensor-Fusion.pdf:PDF},		url = {https://www.researchgate.net/profile/Wilfried-Elmenreich/publication/267771481_An_Introduction_to_Sensor_Fusion/links/55d2e45908ae0a3417222dd9/An-Introduction-to-Sensor-Fusion.pdf},		accessDate={2024-06-20},		}
+
+@Article{Shortis2015,
+  author    = {Shortis, Mark},
+  journal   = {Sensors},
+  title     = {Calibration Techniques for Accurate Measurements by Underwater Camera Systems},
+  year      = {2015},
+  issn      = {1424-8220},
+  month     = dec,
+  number    = {12},
+  pages     = {30810--30826},
+  volume    = {15},
+  doi       = {10.3390/s151229831},
+  groups    = {Underwater Environment, Camera Calibration},
+  publisher = {MDPI AG},
+  ranking   = {rank4},
+}
+
+@Article{MassotCampos2015,
+  author    = {Massot-Campos, Miquel and Oliver-Codina, Gabriel},
+  journal   = {Sensors},
+  title     = {Optical Sensors and Methods for Underwater 3D Reconstruction},
+  year      = {2015},
+  issn      = {1424-8220},
+  month     = dec,
+  number    = {12},
+  pages     = {31525--31557},
+  volume    = {15},
+  doi       = {10.3390/s151229864},
+  groups    = {Underwater 3D Reconstruction, 3D Reconstruction},
+  priority  = {prio1},
+  publisher = {MDPI AG},
+}
+
+@Article{Millane2023,
+  author        = {Millane, Alexander and Oleynikova, Helen and Wirbel, Emilie and Steiner, Remo and Ramasamy, Vikram and Tingdahl, David and Siegwart, Roland},
+  title         = {nvblox: GPU-Accelerated Incremental Signed Distance Field Mapping},
+  year          = {2023},
+  month         = nov,
+  abstract      = {Dense, volumetric maps are essential to enable robot navigation and interaction with the environment. To achieve low latency, dense maps are typically computed onboard the robot, often on computationally constrained hardware. Previous works leave a gap between CPU-based systems for robotic mapping which, due to computation constraints, limit map resolution or scale, and GPU-based reconstruction systems which omit features that are critical to robotic path planning, such as computation of the Euclidean Signed Distance Field (ESDF). We introduce a library, nvblox, that aims to fill this gap, by GPU-accelerating robotic volumetric mapping. Nvblox delivers a significant performance improvement over the state of the art, achieving up to a 177x speed-up in surface reconstruction, and up to a 31x improvement in distance field computation, and is available open-source.},
+  archiveprefix = {arXiv},
+  copyright     = {arXiv.org perpetual, non-exclusive license},
+  doi           = {10.48550/ARXIV.2311.00626},
+  eprint        = {2311.00626},
+  file          = {:Millane2023 - Nvblox_ GPU Accelerated Incremental Signed Distance Field Mapping.pdf:PDF:http\://arxiv.org/pdf/2311.00626v2},
+  keywords      = {Robotics (cs.RO), FOS: Computer and information sciences},
+  primaryclass  = {cs.RO},
+  priority      = {prio1},
+  publisher     = {arXiv},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -218,8 +289,9 @@
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
 1 StaticGroup:Depth Maps\;0\;1\;\;\;\;;
-1 StaticGroup:Underwater 3D Reconstruction\;0\;0\;\;\;\;;
+1 StaticGroup:Underwater 3D Reconstruction\;0\;1\;\;\;\;;
 1 StaticGroup:Underwater Environment\;0\;1\;\;\;\;;
 1 StaticGroup:Hardware\;0\;1\;\;\;\;;
 1 StaticGroup:3D Reconstruction\;0\;1\;\;\;\;;
+1 StaticGroup:Camera Calibration\;0\;1\;\;\;\;;
 }
